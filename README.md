@@ -46,11 +46,9 @@ The input is an image uploaded by the user through Google Colab. The image may c
 
 ## Screenshot / Output Image
 
-Insert the generated output image here.
-
 Example:
 
-![Detection Result](my_detection_result.png)
+![Detection Result](output_result1.png)
 
 ## License Information
 

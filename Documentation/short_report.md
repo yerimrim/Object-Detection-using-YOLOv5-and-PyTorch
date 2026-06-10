@@ -3,7 +3,7 @@
 **What image or video did you use?** 
 I used an image containing multiple everyday objects uploaded through Google Colab.
 
----
+-
 
 **Which objects were detected?** 
 The model detected objects such as person, car, and chair.

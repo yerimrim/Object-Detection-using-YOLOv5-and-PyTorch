@@ -2,11 +2,11 @@
 
 ## Project Title
 
-YOLOv5-Based Object Detection using Google Colab
+YOLOv5 Object Detection using Google Colab
 
 ## Short Description
 
-This project demonstrates object detection using YOLOv5 models in Google Colab. The model detects objects from an input image and visualizes the detection results by drawing bounding boxes and confidence scores. The project compares the performance of YOLOv5s and YOLOv5x models and saves the output images with detected objects.
+This project performs object detection on uploaded images using YOLOv5 models in Google Colab. Two implementations were included: YOLOv5s for basic object detection with bounding boxes, and YOLOv5x for improved detection performance with object labels and confidence scores.
 
 ## Tools and Libraries Used
 
@@ -19,37 +19,47 @@ This project demonstrates object detection using YOLOv5 models in Google Colab. 
 
 ## How to Run the Code
 
-1. Open the notebook in Google Colab.
-2. Install required packages:
+1. Open `code.ipynb` in Google Colab.
+2. Install the required package:
 
    ```bash
    pip install ultralytics
    ```
-3. Run all cells in order.
+3. Run all cells.
 4. Upload an image when prompted.
-5. The model will detect objects and display the results.
-6. The output image with bounding boxes will be saved automatically.
+5. View the detection results and saved output images.
 
 ## Input Image Description
 
-The input is an image uploaded by the user through Google Colab. The image may contain various objects such as people, cars, chairs, or other common objects from the COCO dataset.
+The input is an image uploaded by the user. Images may contain common objects such as people, cars, chairs, and other objects from the COCO dataset.
 
 ## Output Result Explanation
 
-* The model detects objects in the image.
-* Bounding boxes are drawn around detected objects.
-* Object names and confidence scores are displayed.
-* The final output image is saved as:
+* **Method 1 (YOLOv5s):** Detects objects and saves an image with bounding boxes (`output_result1.png`).
+* **Method 2 (YOLOv5x):** Detects objects, displays object names with confidence scores, and saves the result image (`output_result2.png`).
 
-  * `output_result1.png` (YOLOv5s result)
-  * `output_result2.png` (YOLOv5x result)
+Example output:
+
+```text
+person: 0.92
+car: 0.88
+chair: 0.74
+```
+
+## Code Modifications
+
+* Changed the YOLOv5 model from **YOLOv5s** to **YOLOv5x**.
+* Added functionality to print **detected object names and confidence scores**.
 
 ## Screenshot / Output Image
 
-Example:
+Add the generated output images here:
 
-![Detection Result](output_result1.png)
+```markdown
+![YOLOv5s Result](output_result1.png)
+![YOLOv5x Result](output_result2.png)
+```
 
-## License Information
+## License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the `LICENSE` file for details.

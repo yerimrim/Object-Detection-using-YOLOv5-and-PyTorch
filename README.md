@@ -41,8 +41,8 @@ The input is an image uploaded by the user through Google Colab. The image may c
 * Object names and confidence scores are displayed.
 * The final output image is saved as:
 
-  * `output_result.png` (YOLOv5s result)
-  * `my_detection_result.png` (YOLOv5x result)
+  * `output_result1.png` (YOLOv5s result)
+  * `output_result2.png` (YOLOv5x result)
 
 ## Screenshot / Output Image
 

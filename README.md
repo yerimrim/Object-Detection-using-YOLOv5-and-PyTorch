@@ -53,12 +53,9 @@ chair: 0.74
 
 ## Screenshot / Output Image
 
-Add the generated output images here:
-
-```markdown
 ![YOLOv5s Result](output_result1.png)
 ![YOLOv5x Result](output_result2.png)
-```
+
 
 ## License
 
